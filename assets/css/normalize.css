@@ -1,0 +1,81 @@
+/* Normalize.css - A modern reset for better cross-browser consistency */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure, blockquote,
+dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Improve text rendering */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed;
+  min-height: 100vh;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Remove default anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ensure images are responsive */
+img, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Improve button styles */
+button, input, textarea, select {
+  font: inherit;
+}
+
+/* Prevent text overflows */
+pre, code {
+  overflow-x: auto;
+}
+
+/* Remove default styles for fieldsets and legends */
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+legend {
+  padding: 0;
+}
+
+/* Prevent iOS zooming on form elements */
+input, select, textarea, button {
+  font-size: 100%;
+}
+
+/* Improve focus styles */
+a, button, input, textarea, select {
+  outline-offset: 2px;
+}
