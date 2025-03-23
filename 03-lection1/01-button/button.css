@@ -1,65 +1,53 @@
-.buttonsWrapper {
-	display:flex;
-	align-items: center;
-	padding: 10px;
-	gap: 5px;
-}
-
 .button {
-	width: 182px;
-	height: 48px;
-	border: none;
-	border-radius: 8px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-family: Roboto;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-	color: var(--white);
+  height: 48px;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  border: none;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+  color: var(--white);
 }
 
 .button:active {
-	box-shadow:inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .button:disabled {
-	cursor: default;
-	opacity: 0.5;
-	pointer-events: none;
+  opacity: 0.5;
+  pointer-events: none;
 }
 
 .button_primary {
-	background: var(--primary);
+  background: var(--primary);
 }
 
 .button_primary:hover {
-	background:  #2342C0;
+  background: #2342c0;
 }
 
 .button_secondary {
-	background: var(--secondary);
+  background: var(--secondary);
 }
 
 .button_secondary:hover {
-	background: #5028C6;
+  background: #5028c6;
 }
 
 .button_alternate {
-	color: var(--grey-4);
-	border: 1px solid var(--grey-3);
-	background: none;
+  color: var(--grey-4);
+  border: 1px solid var(--grey-3);
+  background: none;
 }
 
 .button_alternate:hover {
-	border: 1px solid var(--black);
+  border: 1px solid var(--black);
 }
-
-
