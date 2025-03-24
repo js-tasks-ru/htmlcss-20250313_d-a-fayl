@@ -1,7 +1,6 @@
 .button {
   height: 48px;
-  padding-top: 15px;
-  padding-bottom: 14px;
+  padding: 0 16px 0 16px;
   border: none;
   border-radius: 8px;
   font-family: Roboto;
