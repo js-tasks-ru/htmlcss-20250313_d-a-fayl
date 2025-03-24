@@ -3,10 +3,11 @@
   padding-top: 71px;
   padding-bottom: 136px;
   letter-spacing: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 .footer__title {
-  font-family: 'Inter', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 38px;
   line-height: 48px;
@@ -15,7 +16,7 @@
 .footer__content {
   margin: 32px auto 0;
   width: 640px;
-  font-family: 'Inter', sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
