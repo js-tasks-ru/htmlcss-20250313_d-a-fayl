@@ -1,0 +1,23 @@
+.button {
+  background: #4263eb;
+  cursor: pointer;
+  height: 48px;
+  padding: 15px 51px 14px 51px;
+  border: none;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+  color: var(--white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover {
+  background: #0c2cad;
+}
