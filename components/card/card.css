@@ -1,0 +1,12 @@
+.card {
+  width: 350px;
+  height: 367px;
+  background: var(--white);
+  border-radius: 12px;
+  padding: 312px 65px 30px 69px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}

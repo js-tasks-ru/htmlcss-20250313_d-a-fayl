@@ -1,4 +1,10 @@
 .main {
-  height: 400px;
   background: #f9fafc;
+  padding: 68px 0;
+}
+
+.main__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
