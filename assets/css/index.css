@@ -5,6 +5,7 @@
 @import '../../components/main/main.css';
 @import '../../components/page/page.css';
 @import '../../components/container/container.css';
+@import '../../components/card/card.css';
 
 :root {
   --white: #ffffff;
@@ -24,9 +25,14 @@
   --primary: var(--blue);
   --secondary: var(--purple);
 
-  --container-width: 1100px;
+  --container-width: 1110px;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
 }
