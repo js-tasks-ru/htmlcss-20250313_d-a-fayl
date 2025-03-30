@@ -1,8 +1,6 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .tooltip__bubble {
@@ -19,7 +17,7 @@
   color: #dde2e5;
   position: absolute;
   display: none;
-  top: calc(100% + 10px);
+  bottom: calc(100% + 10px);
   left: 50%;
   transform: translateX(-50%);
 }
@@ -31,9 +29,9 @@
 .tooltip__bubble:before {
   content: '';
   border: 10px solid transparent;
-  border-bottom-color: #4263eb;
+  border-top-color: #4263eb;
   position: absolute;
-  bottom: 100%;
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
 }
