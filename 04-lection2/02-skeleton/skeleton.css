@@ -19,6 +19,10 @@
   gap: 8px;
 }
 
+.skeleton__group_header {
+  flex-grow: 1;
+}
+
 .skeleton__line {
   height: 20px;
   width: 100%;
@@ -33,11 +37,11 @@
 }
 
 .skeleton__line_shorter {
-  width: 257px;
+  width: 59%;
 }
 
 .skeleton__line_shortest {
-  width: 172px;
+  width: 40%;
 }
 
 .skeleton__circle {
