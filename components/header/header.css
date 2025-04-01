@@ -11,3 +11,8 @@
   line-height: 64px;
   color: #212429;
 }
+
+.header_inner {
+  height: 82px;
+  padding: 0;
+}
