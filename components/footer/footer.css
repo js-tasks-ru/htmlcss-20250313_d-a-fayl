@@ -20,7 +20,7 @@
   line-height: 24px;
 }
 
-.footer__content_inner {
+.footer__title {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
@@ -30,6 +30,4 @@
 
 .footer_inner {
   background: #f9fafc;
-  padding-top: 92px;
-  padding-bottom: 56px;
 }
