@@ -20,6 +20,14 @@
 
 .accordion__summary {
   list-style: none;
+  position: relative;
+}
+
+.accordion__arrowIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #495057;
 }
 
 .accordion__summary::-webkit-details-marker {
