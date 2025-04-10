@@ -28,6 +28,8 @@
   top: 0;
   right: 0;
   color: #495057;
+  width: 24px;
+  height: 24px;
 }
 
 .accordion__summary::-webkit-details-marker {
