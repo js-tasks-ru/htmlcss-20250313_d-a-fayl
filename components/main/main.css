@@ -16,3 +16,12 @@
   grid-template-columns: auto 1fr;
   gap: 56px;
 }
+
+@media (max-width: 375px) {
+  .main {
+    padding: 24px 15px;
+  }
+  .main__cards {
+    gap: 23px 16px;
+  }
+}

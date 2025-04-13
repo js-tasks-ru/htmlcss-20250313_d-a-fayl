@@ -31,3 +31,9 @@
 .footer_inner {
   background: #f9fafc;
 }
+
+@media (max-width: 375px) {
+  .footer {
+    display: none;
+  }
+}
