@@ -26,6 +26,12 @@
   cursor: pointer;
 }
 
+.tooltip__triggerIcon {
+  width: 24px;
+  height: 24px;
+  color: #212429;
+}
+
 .tooltip__bubble:before {
   content: '';
   border: 10px solid transparent;
