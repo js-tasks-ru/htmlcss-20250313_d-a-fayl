@@ -47,7 +47,6 @@
 }
 
 .radio__input:disabled ~ .radio__state .radio__control {
-  border-color: var(--grey-2);
   background: var(--grey-2);
 }
 
