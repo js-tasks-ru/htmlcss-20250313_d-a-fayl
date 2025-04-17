@@ -1,5 +1,5 @@
 .main {
-  background: #fff;
+  background: #f9fafc;
   padding: 68px 0;
 }
 
@@ -19,9 +19,9 @@
 
 @media (max-width: 375px) {
   .main {
-    padding: 24px 15px;
+    padding: 23px 15px 26px 15px;
   }
   .main__cards {
-    gap: 23px 16px;
+    gap: 16px;
   }
 }

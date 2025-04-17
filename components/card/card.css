@@ -3,6 +3,8 @@
   height: 367px;
   background: var(--white);
   border-radius: 12px;
+  padding-left: 65px;
+  padding-right: 65px;
   padding-bottom: 32px;
   font-weight: 500;
   font-size: 21px;
@@ -16,7 +18,6 @@
 
 .card__content {
   margin-top: auto;
-  max-width: 90%;
 }
 
 @media (max-width: 375px) {

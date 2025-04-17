@@ -10,6 +10,7 @@
   font-size: 50px;
   line-height: 64px;
   color: #212429;
+  margin-top: 38px;
 }
 
 .header_inner {
@@ -23,17 +24,9 @@
   height: 32px;
 }
 
-.header__logo_index {
-  margin-bottom: 38px;
-}
-
 @media (max-width: 375px) {
   .header {
     padding: 16px 71px 69px;
-  }
-
-  .header__logo_index {
-    margin-bottom: 48px;
   }
 
   .header__title {
@@ -41,9 +34,13 @@
     font-size: 28px;
     line-height: 38px;
     letter-spacing: 0%;
+    margin-top: 48px;
   }
 
   .header_inner {
-    padding: 16px 132px;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
