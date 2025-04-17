@@ -34,7 +34,7 @@
 }
 
 .radio__circle {
-  display: none;
+  opacity: 0;
   width: 18px;
   height: 18px;
   border: 2px solid var(--white);
@@ -51,7 +51,7 @@
 }
 
 .radio__input:checked ~ .radio__state .radio__circle {
-  display: block;
+  opacity: 1;
 }
 
 .radio__input:focus ~ .radio__state .radio__legend {
