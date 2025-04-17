@@ -1,6 +1,6 @@
 .header {
   background: #fff;
-  padding: 96px 0 77px;
+  padding: 24px 0 77px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -10,8 +10,37 @@
   font-size: 50px;
   line-height: 64px;
   color: #212429;
+  margin-top: 38px;
 }
 
 .header_inner {
   background: #f9fafc;
+  padding-top: 24px;
+  padding-bottom: 60px;
+}
+
+.header__logo {
+  width: 110px;
+  height: 32px;
+}
+
+@media (max-width: 375px) {
+  .header {
+    padding: 16px 71px 69px;
+  }
+
+  .header__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    margin-top: 48px;
+  }
+
+  .header_inner {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }

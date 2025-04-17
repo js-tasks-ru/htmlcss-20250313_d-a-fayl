@@ -35,6 +35,12 @@
   cursor: pointer;
 }
 
+.modal__closeIcon {
+  width: 24px;
+  close: 24px;
+  color: #495057;
+}
+
 .modal__body {
   font-family: Inter;
   font-weight: 400;

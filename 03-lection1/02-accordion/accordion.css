@@ -14,12 +14,26 @@
   padding: 24px 32px;
 }
 
+.accordion__item[open] .accordion__arrowIcon {
+  transform: rotate(180deg);
+}
+
 .accordion__item:last-child {
   margin-bottom: 0;
 }
 
 .accordion__summary {
   list-style: none;
+  position: relative;
+}
+
+.accordion__arrowIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #495057;
+  width: 26px;
+  height: 26px;
 }
 
 .accordion__summary::-webkit-details-marker {
