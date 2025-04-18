@@ -7,10 +7,7 @@
     <script defer src="./burger-menu.js"></script>
   </head>
   <body>
-    <button
-      class="burgerMenu__button burgerMenu__button_open"
-      id="burger-menu-open"
-    >
+    <button class="button" id="burger-menu-open">
       <svg
         class="burgerMenu__iconOpen"
         viewBox="0 0 24 24"
@@ -39,10 +36,7 @@
     </button>
     <div class="burgerMenu" id="burger-menu">
       <div class="burgerMenu__header">
-        <button
-          class="burgerMenu__button burgerMenu__button_close"
-          id="burger-menu-close"
-        >
+        <button class="burgerMenu__button" id="burger-menu-close">
           <svg
             class="burgerMenu__iconClose"
             viewBox="0 0 24 24"
@@ -81,8 +75,8 @@
           </defs>
         </svg>
       </div>
-      <div class="burgerMenu__body">
-        <p class="burgerMenu__title">Components</p>
+      <nav class="burgerMenu__body">
+        <h4 class="burgerMenu__title">Components</h4>
         <div class="burgerMenu__links">
           <a class="burgerMenu__link" href="#">Modal</a>
           <a class="burgerMenu__link" href="#">Tooltip</a>
@@ -92,7 +86,7 @@
           <a class="burgerMenu__link" href="#"> Custom form elements </a>
           <a class="burgerMenu__link" href="#"> Main page </a>
         </div>
-      </div>
+      </nav>
     </div>
   </body>
 </html>
