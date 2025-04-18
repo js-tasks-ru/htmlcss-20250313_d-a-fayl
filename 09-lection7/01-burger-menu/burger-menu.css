@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #fafcfa;
+  background-color: rgba(250, 252, 250, 0.5);
   display: flex;
   flex-direction: column;
   font-family: Inter;
@@ -29,22 +29,7 @@
 }
 
 .burgerMenu__body {
-  padding: 16px 16px 262px;
-}
-
-.burgerMenu__container {
-  width: 100%;
-  border-top: 1px solid var(--grey-2);
-}
-
-.burgerMenu__togglerBlock {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 28px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid var(--grey-2);
-  margin-bottom: 24px;
+  padding: 16px 16px 0;
 }
 
 .burgerMenu__title {
@@ -68,59 +53,6 @@
 
 .burgerMenu__link:last-child {
   margin-top: 72px;
-}
-
-.burgerMenu__itemName_toggler {
-  color: var(--grey-4);
-}
-
-.toggler {
-  display: inline-block;
-}
-
-.toggler__input {
-  position: absolute;
-  left: -100vw;
-}
-
-.toggler__state {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.toggler__control {
-  width: 52px;
-  height: 28px;
-  border-radius: 16px;
-  box-sizing: border-box;
-  background: var(--white);
-  border: 1px solid var(--grey-2);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 1px;
-}
-
-.toggler__circle {
-  background: var(--grey-2);
-  width: 24px;
-  height: 24px;
-  border-radius: 16px;
-}
-
-.toggler__input:checked ~ .toggler__state .toggler__control {
-  border-color: var(--blue-2);
-  background: var(--blue-2);
-  justify-content: flex-end;
-}
-
-.toggler__input:disabled ~ .toggler__state .toggler__control {
-  background: var(--grey-2);
-}
-
-.toggler__input:disabled ~ .toggler__state .toggler__circle {
-  background: var(--grey-3);
 }
 
 .burgerMenu__logo {
