@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <!-- Страница бургер-меню -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./burger-menu.css">
-        <script defer src="./burger-menu.js"></script>
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/index.css" />
+    <link rel="stylesheet" href="./burger-menu.css" />
+    <link rel="stylesheet" href="./button.css" />
+    <script defer src="./burger-menu.js"></script>
+  </head>
+  <body>
+    <button class="button" id="burger-menu-open">
+      <svg
+        class="button__iconOpen"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12Z"
+          fill="currentColor"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z"
+          fill="currentColor"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M2 18C2 17.4477 2.44772 17 3 17H21C21.5523 17 22 17.4477 22 18C22 18.5523 21.5523 19 21 19H3C2.44772 19 2 18.5523 2 18Z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+    <div class="burgerMenu" id="burger-menu">
+      <div class="burgerMenu__header">
+        <button class="burgerMenu__button" id="burger-menu-close">
+          <svg
+            class="burgerMenu__iconClose"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289Z"
+              fill="#212429"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+              fill="#212429"
+            />
+          </svg>
+        </button>
+        <svg
+          class="burgerMenu__logo"
+          viewBox="0 0 110 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_16770_202)">
+            <rect y="1" width="30" height="30" fill="currentColor" />
+            <rect x="38" width="32" height="32" rx="16" fill="currentColor" />
+            <path d="M78 0L110 32H78V0Z" fill="currentColor" />
+          </g>
+          <defs>
+            <clipPath id="clip0_16770_202">
+              <rect width="110" height="32" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <nav class="burgerMenu__body">
+        <h4 class="burgerMenu__title">Components</h4>
+        <div class="burgerMenu__links">
+          <a class="burgerMenu__link" href="#">Modal</a>
+          <a class="burgerMenu__link" href="#">Tooltip</a>
+          <a class="burgerMenu__link" href="#">Avatar</a>
+          <a class="burgerMenu__link" href="#"> Calendar </a>
+          <a class="burgerMenu__link" href="#"> Histogram </a>
+          <a class="burgerMenu__link" href="#"> Custom form elements </a>
+          <a class="burgerMenu__link" href="#"> Main page </a>
+        </div>
+      </nav>
+    </div>
+  </body>
 </html>
